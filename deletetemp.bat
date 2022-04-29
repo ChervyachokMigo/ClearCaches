@@ -19,7 +19,7 @@ del /S /Q /F "%windir%\Installer\*.*"
 del /S /Q /F "%windir%\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\*.*"
 del /S /Q /F "%ProgramData%\Package Cache\*.*"
 DEL /S /F /Q "%homepath%\AppData\Local\Microsoft\Windows\inetcache\*.*"
-DEL /S /F /Q "%homepath%\AppData\Local\CrashDumps\*.*""
+DEL /S /F /Q "%homepath%\AppData\Local\CrashDumps\*.*"
 del /s /f /q "C:\temp\*.*"
 rem amd
 del /S /Q /F "%homepath%\AppData\Local\AMD\GLCache\*.*"
@@ -54,7 +54,7 @@ del /S /Q /F "%homepath%\AppData\Local\Microsoft\Windows\Explorer\IconCacheToDel
 del /S /Q /F "%homepath%\AppData\Local\Microsoft\Windows\Explorer\ThumbCacheToDelete\*.*"
 rem osu
 del /S /Q /F "%homepath%\AppData\Roaming\osu\cache\*.*"
-del /S /Q /F C:\Osu\Logs\*.*"
+del /S /Q /F C:\Osu\Logs\*.*
 del /S /Q /F C:\Osu\Data\*.*
 rem p2p
 del /S /Q /F "%homepath%\AppData\Roaming\FlylinkDC++\Logs\*.*"
